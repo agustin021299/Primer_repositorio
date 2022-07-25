@@ -1,0 +1,521 @@
+/*GENERAL*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body, html{
+    height: 100%;
+
+}
+body{
+    max-width: 1320px;
+    margin:0 auto;
+ }
+img{
+    max-width: 100%;
+    vertical-align: middle;
+}
+.titulo{
+
+
+    background-color: violet;
+    font-family: 'Ephesis';
+    font-size: 4rem;
+    text-align: center;
+    
+  }
+
+a{
+    text-decoration: none;
+}
+nav{
+    display:flex;
+    padding:0.7rem;
+    background-color: #00b4d8;
+    font-family: 'Ephesis';
+    font-weight: bold;
+    
+    
+}
+header{
+    position: sticky;
+    top:0;
+    z-index: 2;
+}
+nav ul{
+    display: flex;
+    margin-left: 30%;
+
+}
+nav ul li{
+    margin-left: 1.5rem;
+    margin-right: 1rem;
+    margin-top: 1.5px;
+    font-size: 30px;
+    color:white;
+    list-style-type: none;
+}
+nav h1{
+    font-size: 32px;
+    font-weight: bolder;
+}
+aside{
+    background-color:lightskyblue;
+    color:white
+}
+.regionesAside{
+    border-radius: 1rem;
+    margin-top: 1rem;
+    height: 10rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+   
+  }
+  .regionesAside .texto{
+    text-align: center;
+    top: 50%;
+    position:absolute;
+    left:50%;
+    transform:translate(-50%, -50%)}
+  
+  .cataratas{
+    background-image:url(/imagenes/cataratas.jpg);
+
+  }
+  .nieve{
+    background-image:url(/imagenes/nieve.jpg);
+    margin-bottom: 1rem;
+  
+  
+  
+  }
+  .montana{
+    background-image:url(/imagenes/montana.2.jpg);
+    
+
+
+  
+  }
+  .playa{
+    background-image:url(/imagenes/mdelplata.jpg);
+  }
+ 
+  .glaciar{
+    background-image:url(/imagenes/glaciar.jpg);
+    
+}
+
+  aside h3{
+  text-align: center;
+  font-size: 2.5rem;
+  font-family: 'ephesis';
+  }
+  
+
+footer{
+    color:white;
+    background-color: black;
+    font-size: 20px;
+    padding: 1rem;
+    
+    
+}
+footer img{
+    width: 37px;
+
+}
+
+/*INICIO*/
+.inicio{
+    background-image: url(../imagenes/s.m.andes.5.jpg);
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    
+}
+.inicioTexto{
+text-align: left;
+top:70%;
+position: absolute;
+left:50%;
+color:white;
+font-family: 'Ephesis', cursive;
+}
+.inicioTexto h3{
+    font-size: 3rem;
+}
+.inicioTexto p{
+    font-size:2rem;
+    
+    
+}
+.inicioTexto a{
+    text-decoration: none;
+    background-color: aliceblue;
+    padding: 1rem;
+    font-size: 2.5rem;
+    margin-left: 45%;
+    font-weight: bold;
+    border-radius: 3rem;
+    color:purple;
+    
+    
+
+    
+  
+    
+}
+
+
+/*DESTINOS*/
+.regiones {
+    text-align: center;
+    
+}
+.regiones h3{
+    font-size: 5rem;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    font-family: 'Ephesis';
+
+}
+.regiones p{
+    font-size: 2rem;
+}
+.destino{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    height: 63rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+}
+.destino .texto{
+    text-align: center;
+    top: 50%;
+    position:absolute;
+    left:50%;
+    transform:translate(-50%, -50%)
+}
+.destino .texto h3{
+    color: white;
+    font-size: 7rem;
+    font-family: 'Ephesis'
+}
+.texto button{
+    width: 50%;
+    padding: 1rem;
+    font-size: 1.5rem;
+    border-radius: 1.5rem;
+    font-size: 2rem;
+    color: purple;
+}
+.cuyo .texto button{
+    width: 8rem;
+}
+
+.destinos{
+    background-color:lightblue;
+}
+
+
+/*PATAGONIA*/
+.patagonia{
+    background-image: url(../imagenes/patagonia.celeste.jpg);
+}
+
+/*CUYO*/
+.cuyo{
+    background-image: url(../imagenes/cuyo.celeste.jpg);}
+   
+/*CENTRO*/
+.centro{
+    background-image: url(../imagenes/centro.celeste.1.jpg);}
+    
+/*NOROESTE*/
+
+.noroeste{
+    background-image: url(../imagenes/noroeste.celeste.jpg);}
+   
+/*NORESTE*/
+.noreste{
+    background-image: url(../imagenes/noreste.celeste.jpg);}
+    
+/*RUTAS*/
+
+
+.rutas{
+    max-width: 1320px;
+    margin:  0 auto;
+    background-color: lightcyan;
+    
+    
+}
+.rutas img{
+    width: 35%;
+    margin-left: 1rem;
+}
+.rutasDos{
+    display: flex;
+    margin-bottom: 1.5rem;
+    font-size: 2rem;
+    margin-left: 3rem;
+    
+    
+}
+.rutasUno{
+    margin-bottom: 4rem ;
+    text-align: center;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    
+}
+.rutasDos li{
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+}
+.rutasDos img{
+    width: 40%;
+    border-radius: 1rem;
+}
+.rutasUno h3{
+    margin-top: 1.5rem;
+    margin-bottom: 2rem;
+    font-size: 5rem;
+    font-family: 'Ephesis';
+}
+.rutasUno p{
+font-size: 2rem;
+}
+/*SOBRE ARGENTINA*/
+.sobreArg{
+    margin:  auto;
+    width: 90%;}
+.sobreArgUno{
+text-align: center;
+margin: auto;
+font-size: 1.5rem;
+
+}
+.sobreArgUno .uno{
+    width: 95%;
+    margin: auto;
+    margin-top: 1rem;
+
+}
+.sobreArgUno .dos{
+    width: 85%;
+    margin: auto;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+}
+.sobreArg h1{
+    font-family: 'Ephesis';
+    font-size: 5rem;
+}
+
+
+.sobreArg h2{
+   
+    margin-bottom: 2.5rem;
+    font-size: 4rem;
+    font-family: 'Ephesis';
+    
+   
+}
+.cuerpoArg{
+    background-color: lightgray;
+    
+}
+
+/*MATE*/
+.mate{
+    display: flex;
+    width: 70%;
+    font-size: 1.5rem;
+    height: 20rem;
+    margin-left: 30%;
+    
+    
+    
+
+}
+
+
+.mate p{
+    padding: 2.5rem;
+    line-height: 1.7rem;
+    color: aliceblue;
+    background-color:lightseagreen;
+    border-radius: 1rem;
+    
+    
+    
+}
+.mate img{
+    margin-left: 1rem;
+    border-radius: 1rem;
+}
+.mate span{
+    color:black;
+    font-weight: bold;
+}
+/*TANGO*/
+.tango{
+    display: flex;
+    width: 70%;
+    font-size: 1.5rem;
+    height: 20rem;
+    /*margin-left: 4rem;*/
+    margin-top: 2.5rem;
+    
+ 
+  
+
+}
+.tango p{padding: 3rem;
+    line-height: 1.7rem;
+    color: aliceblue;
+    background-color:lightslategray;
+    border-radius: 1rem;
+    
+    
+}
+.tango img{
+    margin-right: 1rem;
+    border-radius: 1rem;
+}
+.tango span{
+    color:black;
+    font-weight: bold;
+    
+}
+/*FUTBOL*/
+.futbol{
+    display: flex;
+    width: 90%;
+    font-size: 1.5rem;
+    height: 20rem;
+    margin-left:10%;
+    margin-top: 2.5rem;
+    margin-bottom: 2rem;
+
+}
+.futbol p{
+    padding: 2.5rem;
+    line-height: 1.7rem;
+    color: aliceblue;
+    background-color:lightcoral;
+    border-radius: 1rem;
+    
+    
+}
+.futbol img{
+    margin-left: 1rem;
+    border-radius: 1rem;
+    
+}
+.futbol span{
+    color:black;
+    font-weight: bold;
+}
+
+/*CONTACTO*/
+.contacto{
+    padding:5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1320px;
+    margin: 0 auto;
+    background-color: #343a40;
+
+
+
+
+}
+
+form{
+    text-align: center;
+    color:#00b4d8;
+    background-color: black;
+    padding:2rem;
+    font-size: 1.5rem;
+    border-radius: 1.5rem;
+    
+    
+}
+input{
+    margin-top: 1rem;
+    margin-bottom: 0.7rem;
+    padding: 0.5rem;
+    border-radius: 1rem;
+}
+textarea{
+    width: 20rem;
+    border-radius: 0.1rem;
+}
+.formBoton{
+    padding: 1rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+/*GRIDS...*/
+
+.cuerpoInicio, .cuerpoRutas, .cuerpoArg, .cuerpoDestinos{
+    display: grid;
+    grid-template-rows: auto 2fr  auto;
+    min-height: 100vh;
+    /*height: 160vh;*/
+    grid-template-columns: 1fr 4fr;
+    grid-template-areas:
+      "header header"
+      "aside main"
+      " footer footer";
+  }
+  
+  
+  
+  header {
+    grid-area: header;
+  }
+  
+  aside {
+    grid-area: aside;
+    
+   
+  }
+  
+  main {
+    grid-area: main;
+  }
+  
+  footer {
+    grid-area: footer;
+  }
+  
+ @media(max-width:768px){
+        body{
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto 1fr auto;
+        min-height: 100vh;
+        grid-area: 
+        "header"
+        "main"
+        "aside"
+        "footer";
+    }
+    nav ul{
+        display: block;
+        margin-left: 0;
+    }
+ }
