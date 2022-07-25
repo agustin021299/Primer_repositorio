@@ -19,7 +19,7 @@ img{
 .titulo{
 
 
-    background-color: violet;
+    background-image: linear-gradient(to bottom, violet, white);
     font-family: 'Ephesis';
     font-size: 4rem;
     text-align: center;
@@ -165,12 +165,18 @@ font-family: 'Ephesis', cursive;
     font-weight: bold;
     border-radius: 3rem;
     color:purple;
+    transition: 0.7s;
     
     
 
     
   
     
+}
+.inicioTexto a:hover{
+    background-color: purple;
+    color: aliceblue;
+    font-size: 2.7rem;
 }
 
 
