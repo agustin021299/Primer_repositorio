@@ -60,11 +60,8 @@ nav h1{
     font-size: 32px;
     font-weight: bolder;
 }
-aside{
-    background-color:lightskyblue;
-    color:white
-}
-.regionesAside{
+
+.imagenesDos{
     border-radius: 1rem;
     margin-top: 1rem;
     height: 10rem;
@@ -76,7 +73,7 @@ aside{
     margin-right: 0.5rem;
    
   }
-  .regionesAside .texto{
+  .imagenesDos .texto{
     text-align: center;
     top: 50%;
     position:absolute;
@@ -110,10 +107,11 @@ aside{
     
 }
 
-  aside h3{
+  .imagenesTitulo{
   text-align: center;
-  font-size: 2.5rem;
+  font-size: 3.5rem;
   font-family: 'ephesis';
+  margin-top: 3rem;
   }
   
 
@@ -142,9 +140,9 @@ footer img{
 }
 .inicioTexto{
 text-align: left;
-top:70%;
+top:60%;
 position: absolute;
-left:50%;
+left:53%;
 color:white;
 font-family: 'Ephesis', cursive;
 }
@@ -166,6 +164,8 @@ font-family: 'Ephesis', cursive;
     border-radius: 3rem;
     color:purple;
     transition: 0.7s;
+    position: absolute;
+    margin-top: 1rem;
     
     
 
@@ -477,11 +477,11 @@ textarea{
 
 /*GRIDS...*/
 
-.cuerpoInicio, .cuerpoRutas, .cuerpoArg, .cuerpoDestinos{
+/*.cuerpoInicio, .cuerpoRutas, .cuerpoArg, .cuerpoDestinos{
     display: grid;
     grid-template-rows: auto 2fr  auto;
     min-height: 100vh;
-    /*height: 160vh;*/
+    /*height: 160vh;
     grid-template-columns: 1fr 4fr;
     grid-template-areas:
       "header header"
@@ -507,7 +507,7 @@ textarea{
   
   footer {
     grid-area: footer;
-  }
+  }*/
   
  @media(max-width:768px){
         body{
@@ -524,4 +524,19 @@ textarea{
         display: block;
         margin-left: 0;
     }
+ }
+ .imagenesUno{
+    display: flex;
+ }
+ .imagenesDos{
+    width: 30%;
+    font-family: 'ephesis';
+    font-size: 2.5rem;
+    height: 16rem;
+    margin-bottom: 3rem;
+    
+
+ }
+ .cuerpoInicio{
+    background-color: lightskyblue;
  }
