@@ -81,33 +81,7 @@ nav h1{
     left:50%;
     transform:translate(-50%, -50%)}
   
-  .cataratas{
-    background-image:url(/imagenes/cataratas.jpg);
-
-  }
-  .nieve{
-    background-image:url(/imagenes/nieve.jpg);
-    margin-bottom: 1rem;
   
-  
-  
-  }
-  .montana{
-    background-image:url(/imagenes/montana.2.jpg);
-    
-
-
-  
-  }
-  .playa{
-    background-image:url(/imagenes/mdelplata.jpg);
-  }
- 
-  .glaciar{
-    background-image:url(/imagenes/glaciar.jpg);
-    
-}
-
   .imagenesTitulo{
   text-align: center;
   font-size: 3.5rem;
@@ -179,7 +153,47 @@ font-family: 'Ephesis', cursive;
     color: aliceblue;
     font-size: 2.7rem;
 }
+.imagenesUno{
+    display: flex;
+ }
+ .imagenesDos{
+    width: 30%;
+    font-family: 'ephesis';
+    font-size: 2.5rem;
+    height: 16rem;
+    margin-bottom: 3rem;
+    
 
+ }
+ .cuerpoInicio{
+    background-color: lightskyblue;
+ }
+ .cataratas{
+    background-image:url(/imagenes/cataratas.jpg);
+
+  }
+  .nieve{
+    background-image:url(/imagenes/nieve.jpg);
+    margin-bottom: 1rem;
+  
+  
+  
+  }
+  .montana{
+    background-image:url(/imagenes/montana.2.jpg);
+    
+
+
+  
+  }
+  .playa{
+    background-image:url(/imagenes/mdelplata.jpg);
+  }
+ 
+  .glaciar{
+    background-image:url(/imagenes/glaciar.jpg);
+    
+}
 
 /*DESTINOS*/
 .regiones {
@@ -526,18 +540,4 @@ textarea{
         margin-left: 0;
     }
  }
- .imagenesUno{
-    display: flex;
- }
- .imagenesDos{
-    width: 30%;
-    font-family: 'ephesis';
-    font-size: 2.5rem;
-    height: 16rem;
-    margin-bottom: 3rem;
-    
-
- }
- .cuerpoInicio{
-    background-color: lightskyblue;
- }
+ 
