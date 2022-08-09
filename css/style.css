@@ -169,29 +169,29 @@ font-family: 'Ephesis', cursive;
     background-color: lightskyblue;
  }
  .cataratas{
-    background-image:url(/imagenes/cataratas.jpg);
+    background-image:url(../imagenes/cataratas.jpg);
 
   }
   .nieve{
-    background-image:url(/imagenes/nieve.jpg);
+    background-image:url(../imagenes/nieve.jpg);
     margin-bottom: 1rem;
   
   
   
   }
   .montana{
-    background-image:url(/imagenes/montana.2.jpg);
+    background-image:url(../imagenes/montana.2.jpg);
     
 
 
   
   }
   .playa{
-    background-image:url(/imagenes/mdelplata.jpg);
+    background-image:url(../imagenes/mdelplata.jpg);
   }
  
   .glaciar{
-    background-image:url(/imagenes/glaciar.jpg);
+    background-image:url(../imagenes/glaciar.jpg);
     
 }
 
@@ -525,7 +525,7 @@ textarea{
   }*/
   
  @media(max-width:768px){
-        body{
+       /* body{
         grid-template-columns: 1fr;
         grid-template-rows: auto auto 1fr auto;
         min-height: 100vh;
@@ -533,11 +533,11 @@ textarea{
         "header"
         "main"
         "aside"
-        "footer";
-    }
+        "footer";*/
+    
     nav ul{
         display: block;
         margin-left: 0;
     }
- }
+}
  
